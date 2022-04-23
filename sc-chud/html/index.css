@@ -1,0 +1,100 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    position: fixed;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%);
+    margin: 0 auto;
+   
+}
+
+.stackup {
+    z-index: 9;
+}
+
+.street-label {
+    position: fixed;
+    left: 35%;
+    bottom: 95%;
+    width:600px;
+    height:30px;
+    border-radius: 20px 40px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    filter: drop-shadow(0 0 0.20rem rgba(0, 0, 0, 0.548));
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.street {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0px, 5px);
+}
+
+.kmh {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-shadow: rgb(0, 0, 0) 0px 0px 1px; 
+    align-items: center;
+    justify-content: center;
+}
+
+.kmh2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: fixed;
+    left: 50px;
+    font-weight: 100;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.20rem rgba(0, 0, 0, 0.548));
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+.speed {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    margin-left: 854.6px;
+    width: 10%;
+    height: 10px;
+    border-radius: 20px 20px 0px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    top: -7px;
+    margin-bottom: 30px;
+    max-width: 570px;
+    transition: 0.2s ease-in-out;
+}
+
+.fuel {
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    display: flex;
+    left: 600px;
+    margin-left: 35em;
+    top: 10%;
+    border-radius: 5px;
+    top: 930px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-shadow: black 0px 0px 1px;  
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0 0 0.20rem rgba(0, 0, 0, 0.548));
+}
